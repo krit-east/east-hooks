@@ -1,7 +1,7 @@
 {
-  "name": "@east/hooks",
-  "version": "0.1.0",
-  "description": "hooks for react",
+  "name": "east-hooks",
+  "version": "0.4.2",
+  "description": "React Hooks สำหรับ API Request และ UI components ง่ายๆ เพียงไม่กี่บรรทัด",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -12,8 +12,8 @@
     "prepublishOnly": "npm run build"
   },
   "peerDependencies": {
-    "react": ">=16.8.0",
-    "react-dom": ">=16.8.0"
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
@@ -25,12 +25,17 @@
   "keywords": [
     "react",
     "hooks",
-    "nextjs"
+    "nextjs",
+    "api",
+    "request",
+    "fetch",
+    "loading",
+    "thai"
   ],
   "author": "krit-east",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/krit-east/krit-ui.git"
+    "url": "https://github.com/krit-east/east-hooks.git"
   }
 }
